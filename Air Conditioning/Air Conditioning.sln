@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Air Conditioning", "Air Conditioning.csproj", "{087405F6-AFA8-4A69-8D4B-F4C5AB026FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLECloudSDK", "..\..\..\C#资料整理2020-7-2\CSharp-SDK-master\NLECloudSDK\NLECloudSDK.csproj", "{0B6DD2C3-3322-469A-A272-FD744B05B7EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{087405F6-AFA8-4A69-8D4B-F4C5AB026FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087405F6-AFA8-4A69-8D4B-F4C5AB026FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087405F6-AFA8-4A69-8D4B-F4C5AB026FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087405F6-AFA8-4A69-8D4B-F4C5AB026FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6DD2C3-3322-469A-A272-FD744B05B7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6DD2C3-3322-469A-A272-FD744B05B7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6DD2C3-3322-469A-A272-FD744B05B7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6DD2C3-3322-469A-A272-FD744B05B7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD3BA271-B0B8-4011-B10C-FCE037A9B1EF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Air_Conditioning.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Air_Conditioning"
+        mc:Ignorable="d"
+        Title="Welcome" Height="450" Width="800">
+    <Grid>
+        <Button Content="进入登录" Margin="300,264,0,0" Background="#FF5252E5" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="173" Foreground="#FFE5E5F1" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="192,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="149" Width="472" FontSize="36"><Run Text="欢迎来到空调控制器"/><LineBreak/><Run FontSize="24" Text="&#x9;"/><Run FontSize="24" Text="——点击下方按钮进入控制器"/></TextBlock>
+
+    </Grid>
+</Window>
