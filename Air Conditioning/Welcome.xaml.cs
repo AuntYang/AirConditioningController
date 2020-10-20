@@ -23,6 +23,7 @@ namespace Air_Conditioning
         public Welcome()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;//WPF窗体在屏幕上居中
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

@@ -23,3 +23,33 @@ C:\Users\付准\Desktop\物联网大赛\空调控制器\PC端项目代码\Air Co
 C:\Users\付准\Desktop\物联网大赛\空调控制器\PC端项目代码\Air Conditioning\obj\Debug\Air Conditioning.csproj.CopyComplete
 C:\Users\付准\Desktop\物联网大赛\空调控制器\PC端项目代码\Air Conditioning\obj\Debug\Air Conditioning.exe
 C:\Users\付准\Desktop\物联网大赛\空调控制器\PC端项目代码\Air Conditioning\obj\Debug\Air Conditioning.pdb
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\Air Conditioning.exe.config
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\Air Conditioning.exe
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\Air Conditioning.pdb
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\MaterialDesignColors.dll
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\NLECloudSDK.dll
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\Newtonsoft.Json.dll
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\NLECloudSDK.pdb
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\MaterialDesignColors.pdb
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning.csprojAssemblyReference.cache
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Login.g.cs
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\MainWindow.g.cs
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Welcome.g.cs
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\App.g.cs
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning_MarkupCompile.cache
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning_MarkupCompile.lref
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\App.baml
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Login.baml
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\MainWindow.baml
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\UI\style\SliderCheckBox.baml
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Welcome.baml
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning.g.resources
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air_Conditioning.Properties.Resources.resources
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning.csproj.GenerateResource.cache
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning.csproj.CoreCompileInputs.cache
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning.csproj.CopyComplete
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning.exe
+C:\Users\付准\Desktop\物联网大赛\空调控制器\AirConditioningController\Air Conditioning\obj\Debug\Air Conditioning.pdb

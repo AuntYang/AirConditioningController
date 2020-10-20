@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using NLECloudSDK;
 using Air_Conditioning;
+using System.Threading;
 
 namespace Air_Conditioning
 {
@@ -27,31 +28,14 @@ namespace Air_Conditioning
         public static string accessToken;
         public static NLECloudAPI SDK = null;//实例化云平台API
         
-
         public Login()
         {//主窗口对象
             InitializeComponent();
+            
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;//WPF窗体在屏幕上居中
         }
-        #region --账号密码框-- 
-        public void UsernameMask(object sender,RoutedEventArgs e)
-        {//账号textbox文字消失
-            getUsername.Text = "";
-            this.getUsername.Focus();
-        }
-        public void PasswordMask(object sender, RoutedEventArgs e)
-        {//密码输入框遮罩
-            /*
-            while(Passwordname.Text != "")
-            {
-                Passwordname.Text = "";
-                this.getPassword.Focus();
-            }
-            */
-            Passwordname.Text = "";
-            this.getPassword.Focus();
+        #region --账号密码判空-- 
 
-        }
-        
         public void SentencedToEmpty()
         {//账号密码判空
             while (getUsername.Text == "" || getPassword.Password == "")
@@ -74,6 +58,8 @@ namespace Air_Conditioning
         public void Button_Click_login(object sender, RoutedEventArgs e)
         {
             SDK = new NLECloudAPI("http://api.nlecloud.com");
+            SentencedToEmpty();
+            ProgressBar.IsIndeterminate =true ;
             //string LocalLoginAuthentication = ""
             AccountLoginDTO data_account = new AccountLoginDTO()//实例化登录信息
             {
@@ -104,12 +90,13 @@ namespace Air_Conditioning
                 }
             }
             */
+            //Thread.Sleep(5000);//全界面Sleep 5秒
             ResultMsg<AccountLoginResultDTO> data_account_verify = SDK.UserLogin(data_account);
             if (data_account_verify.IsSuccess())
             {//问题：输入账号时，textbox内预留的提示文字应消失（×）
              //问题：password内没有预留的提示文字（√）
              //问题：记住密码（×）
-
+                
                 Schoolname = data_account_verify.ResultObj.CollegeName;//获取ResultObj.CollegeName学校名
                 accessToken = data_account_verify.ResultObj.AccessToken;//获取ResultObj.AccessToken,用于后续API调用
                 MessageBox.Show("登陆成功！，您位于" + Schoolname + "\n即将进入空调控制器！", "登录成功");
